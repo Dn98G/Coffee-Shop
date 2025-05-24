@@ -3,9 +3,9 @@ The object-oriented programming in this Python assignment represents a coffee sh
 
 ## Relationships
 
-- A Customer can make one order. (one-to-one)
-- A Coffee can have many Orders. (one-to-many)
-- An Order connects one Customer and one Coffee (many-to-many).
+- A `Customer` can place many `Orders`.
+- A `Coffee` can have many `Orders`.
+- An `Order` belongs to one `Customer` and one `Coffee`.
 
 ## Files
 

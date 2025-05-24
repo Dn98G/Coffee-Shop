@@ -15,7 +15,7 @@ class Coffee:
         return [order for order in Order.all if order.coffee == self]
 
     def customers(self):
-        # Return unique customers who ordered this coffee
+        
         return list({order.customer for order in self.orders()})
 
     def num_orders(self):
